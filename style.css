@@ -106,14 +106,14 @@ main.cards section.card.about{
     main.cards{
         flex-direction: column;
     }
-    
+
+    main.cards section.card{
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+      
+     main.cards section.card:last-child{
+        margin-bottom: 0;
+     }
 }
 
-main.cards section.card{
-    margin-left: 0;
-    margin-bottom: 32px;
-}
-  
-main.cards section.card:last-child{
-    margin-bottom: 0;
-}
